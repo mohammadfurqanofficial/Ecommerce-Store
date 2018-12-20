@@ -6,15 +6,16 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&amp;subset=korean" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
 </head>
 <body>
-	 <header>
+	<!-- Header Open -->
+	<header>
 		<div class="container-fluid bg-red">
 			<div class="container">
 				<div class="row">
 					<div class="col header-red text-center py-2 text-white">
-						<span>ALL PASS </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+						<span>ALL PASS </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						<span>ALL DAY OUT 2018 SEOUL 1차 티켓 오픈 안내</span>
 					</div>
 				</div>
@@ -24,7 +25,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col">
-						<ul class="nav justify-content-end py-2 top-menu">
+						<ul class="nav justify-content-end pt-3 py-2 top-menu">
 							<li class="nav-item">
 								<a class="nav-link py-0" href="#">로그인</a>
 							</li>
@@ -47,30 +48,105 @@
 		</div>
 		<div class="container-fluid">
 			<div class="container">
-				<div class="row my-4">
+				<div class="row my-4 align-items-center">
 					<div class="col-sm-3">
 						<img src="images/logo.png" class="img-fluid">
 					</div>
 					<div class="col-sm-6">
-						 <input class="search-input" type="text" name="" placeholder="문구형 광고 문구 노출 영역입니다">
-						 <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
+						<input class="search-input px-2" type="text" name="" placeholder="문구형 광고 문구 노출 영역입니다">
+						<a href="#" class="search-icon"><i class="fas fa-search"></i></a>
 					</div>
 					<div class="col-sm-3">
+						<img src="images/header-right-banner.png" class="img-fluid">
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="container-fluid border-top border-bottom main-menu">
 			<div class="container">
+			<div class="bars-menu" aria-labelledby="navbarDropdown">
+	         <div class="bars-inner">
+	          <a class="dropdown-item" href="#">전시·박람회</a>
+	          <a class="dropdown-item" href="#">전시·박람회</a>
+	          <a class="dropdown-item" href="#">전시·박람회</a>
+        	</div>
+        	<div class="bars-inner">
+	          <a class="dropdown-item" href="#">전시·박람회</a>
+	          <a class="dropdown-item" href="#">전시·박람회</a>
+	          <a class="dropdown-item" href="#">전시·박람회</a>
+        	</div>
+        	<div class="bars-inner">
+	          <a class="dropdown-item" href="#">전시·박람회</a>
+	          <a class="dropdown-item" href="#">전시·박람회</a>
+	          <a class="dropdown-item" href="#">전시·박람회</a>
+        	</div>
+        	<div class="bars-inner">
+	          <a class="dropdown-item" href="#">전시·박람회</a>
+	          <a class="dropdown-item" href="#">전시·박람회</a>
+	          <a class="dropdown-item" href="#">전시·박람회</a>
+        	</div>
+        	<div class="bars-inner">
+	          <a class="dropdown-item" href="#">전시·박람회</a>
+	          <a class="dropdown-item" href="#">전시·박람회</a>
+	          <a class="dropdown-item" href="#">전시·박람회</a>
+        	</div>
+	        </div>
 				<div class="row my-2">
 					<div class="col-xl-10 col-md-9">
 						<nav class="nav">
-							<a class="nav-link py-1 border-0" href="#"><i class="fas fa-bars"></i> </a>
-							<a class="nav-link py-1 border-0" href="#">전시·박람회 </a>
-							<a class="nav-link py-1 border-0" href="#">세미나·컨퍼런스 </a>
-							<a class="nav-link py-1 border-0" href="#">예술·축제 </a>
-							<a class="nav-link py-1 border-0" href="#">교육·강연</a>
-							<a class="nav-link py-1 border-0" href="#">이벤트 </a>
+							<li class="nav-item dropdown to-show" >
+						       <a class="nav-link py-1 border-0" href="#"><i class="fas fa-bars"></i> </a>
+					      </li>
+							<li class="nav-item dropdown dropdown-link-1">
+						        <a class="nav-link py-1 border-0 " href="#" id="navbarDropdown" >
+						          전시·박람회
+							        </a>
+					        <div class="dropdown-menu dropdown-menu-open-1" aria-labelledby="navbarDropdown">
+					          <a class="dropdown-item" href="#">전시·박람회</a>
+					          <a class="dropdown-item" href="#">전시·박람회</a>
+					          <a class="dropdown-item" href="#">전시·박람회</a>
+					        </div>
+					      </li>
+					      <li class="nav-item dropdown dropdown-link-1">
+						        <a class="nav-link py-1 border-0 " href="#" id="navbarDropdown" >
+						          세미나·컨퍼런스
+							        </a>
+					        <div class="dropdown-menu dropdown-menu-open-1" aria-labelledby="navbarDropdown">
+					          <a class="dropdown-item" href="#">세미나·컨퍼런스</a>
+					          <a class="dropdown-item" href="#">세미나·컨퍼런스</a>
+					          <a class="dropdown-item" href="#">세미나·컨퍼런스</a>
+					        </div>
+					      </li>
+					      <li class="nav-item dropdown dropdown-link-1">
+						        <a class="nav-link py-1 border-0 " href="#" id="navbarDropdown" >
+						          예술·축제
+							        </a>
+					        <div class="dropdown-menu dropdown-menu-open-1" aria-labelledby="navbarDropdown">
+					          <a class="dropdown-item" href="#">예술·축제</a>
+					          <a class="dropdown-item" href="#">예술·축제</a>
+					          <a class="dropdown-item" href="#">예술·축제</a>
+					        </div>
+					      </li>
+					      <li class="nav-item dropdown dropdown-link-1">
+						        <a class="nav-link py-1 border-0 " href="#" id="navbarDropdown" >
+						          교육·강연
+							        </a>
+					        <div class="dropdown-menu dropdown-menu-open-1" aria-labelledby="navbarDropdown">
+					          <a class="dropdown-item" href="#">교육·강연</a>
+					          <a class="dropdown-item" href="#">교육·강연</a>
+					          <a class="dropdown-item" href="#">교육·강연</a>
+					        </div>
+					      </li>
+					      <li class="nav-item dropdown dropdown-link-1">
+						        <a class="nav-link py-1 border-0 " href="#" id="navbarDropdown" >
+						          이벤트
+							        </a>
+					        <div class="dropdown-menu dropdown-menu-open-1" aria-labelledby="navbarDropdown">
+					          <a class="dropdown-item" href="#">이벤트</a>
+					          <a class="dropdown-item" href="#">이벤트</a>
+					          <a class="dropdown-item" href="#">이벤트</a>
+					        </div>
+					      </li>
 						</nav>
 					</div>
 					<div class="col-xl-2 col-md-3 text-right">
@@ -80,7 +156,8 @@
 				</div>
 			</div>
 		</div>
-	</header><!-- header Ends -->
+	</header>
+	<!-- Header Close -->
 
 
     <section>
