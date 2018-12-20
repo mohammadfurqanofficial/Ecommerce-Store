@@ -2,27 +2,42 @@ body{
 	font-family: "Nanum Gothic","맑은 고딕","Malgun Gothic","돋움",Dotum,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	letter-spacing: -0.5px;
 }
+
+.wrapper {
+    margin-top: 225px;
+}
 .bg-red{
 	background: #e60012;
 }
 .bg-gray{
 	background-color: #f0f0f0;
 }
+.header-red{
+	font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: NanumSquare;
+}
 .text-red-cus{
 	color: #e60012;
 }
 .top-menu a {
-	color: #7a7a7a;
-	border-right: 1px solid #7a7a7a
+	color: #666666;
+	border-right: 1px solid #cccccc;
+	font-size: 12px;
+	font-weight: 700;
+    padding: 15px;
 }
 .top-menu a.active {
 	color: #fff;
 }
 .main-menu a {
-	color: #000
+	color: #000;
+	font-size: 16px;
+	font-weight: 700;
 }
 .top-menu a.active:last-child, .footer-links a:last-child{
-	border-right: 1px solid transparent;
+	border-right: 0;
 	background-color: #e60012;
 }
 nav a:hover,.second-nav a:hover{
@@ -35,6 +50,8 @@ nav a:hover,.second-nav a:hover{
     width: 100%;
     line-height: 40px;
     position: relative;
+    font-size: 14px;
+    padding: 0px 12px;
 }
 .search-input:focus{
 	outline: 1px solid #e60012;
