@@ -1,5 +1,6 @@
 body{
-	font-family: 'Nanum Gothic', sans-serif;
+	font-family: "Nanum Gothic","맑은 고딕","Malgun Gothic","돋움",Dotum,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	letter-spacing: -0.5px;
 }
 .bg-red{
 	background: #e60012;
