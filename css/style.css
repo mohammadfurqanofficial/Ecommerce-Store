@@ -2,7 +2,6 @@ body{
 	font-family: "Nanum Gothic","맑은 고딕","Malgun Gothic","돋움",Dotum,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	letter-spacing: -0.5px;
 }
-
 .wrapper {
     margin-top: 225px;
 }
@@ -11,6 +10,9 @@ body{
 }
 .bg-gray{
 	background-color: #f0f0f0;
+}
+.font-s-12{
+	font-size: 12px;
 }
 .header-red{
 	font-size: 18px;
@@ -32,7 +34,7 @@ body{
 	color: #fff;
 }
 .main-menu a {
-	color: #000;
+	color: #333;
 	font-size: 16px;
 	font-weight: 700;
 }
@@ -124,6 +126,7 @@ hr{
 	color: #e60012;
 	font-size: 22px;
     font-weight: 800;
+    padding-left: 0
 }
 .pro-list-tabs .nav .nav-item.active{
 	color: #e60012;
@@ -147,13 +150,15 @@ span.pro-tags {
 	background-color: #5ecce6 !important;
 }
 .pro-list-tabs .nav .nav-item {
-    color: #b5b5b5;
+    color: #999999;
+    font-size: 12px;
+    padding: 0px 17px;
 }
 .home-4th-container.py-4 .card {
     border: 0;
 }
 .pro-list-tabs .card-body .card-text {
-    color: #b3b3b3;
+    color: #999;
 }
 .home-4th-container .card-body .card-text {
     color: #b3b3b3;
@@ -186,23 +191,32 @@ a.nav-link.py-1.border-0:hover {
     display: inline-block;
 }
 .pro-list-tabs .nav .nav-item:first-child {
-    border-right: 1px solid #b7b7b7;
+    border-right: 1px solid #ccc;
 }
 /*Muneeb*/
 .card {
     border-radius:0;
     margin:10px auto;
 }
+.card:hover {
+    border-color: #e60012;
+    cursor: pointer;
+}
+.card-body{
+	padding: 21px 0;
+}
 .card-title {
 	text-transform: uppercase;
-	color: #0d0c0c;
+	color: #333333;
+	font-size: 16px;
 }
 
 .card-text {
 	margin-top:10px;
 	margin-bottom: 10px;
 	background-color:#FFFFFF;
-	color:#000000;
+	font-size: 12px;
+	/*color:#000000;*/
 }
 a.btn, a.btn:visited {
     color:#333333;
@@ -281,3 +295,6 @@ table.red-hover-tables.table-hover td, table.red-hover-tables.table-hover th {
      color: red;
 }
 /*Muneeb*/
+.fa-angle-right{
+
+}
