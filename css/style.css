@@ -140,12 +140,14 @@ body{
 	background-color: #e60012;
 }
 .footer-links a{
-	border: 1px solid #cccccc;
-	font-size: 12px;
-	font-weight: 700;
-    padding: 5px 25px;
-    margin: 0 3px;
-    color: #333333;
+	border-right: 1px solid #cccccc;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0 10px;
+    color: #999;
+}
+.footer-links a:last-child {
+    border-right: 0;
 }
 .main-menu a {
 	color: #333;
@@ -296,6 +298,7 @@ a.nav-link.py-1.border-0:hover {
     border-right: 1px solid #ccc;
 }
 
+
 /*Muneeb*/
 .card {
     border-radius:0;
@@ -381,9 +384,14 @@ table.red-hover-tables.table-hover td, table.red-hover-tables.table-hover th {
 .tabs a.active{
 	border-bottom: 2px solid #red;
 }
-.cangot li a{
-    color: red;
+.bg-gray{
+	background-color: #f7f7f7;
+	color: #d7d7d7;
 }
+.cangot li a{
+     color: red;
+}
+
 .links a{
    color:black;
 }
@@ -439,13 +447,11 @@ a.list-group-item.active small {
 .tablehvrd:hover td:not(.first),
 .tablehvrd:hover td .content-div
 {
-      opacity: 0.2;
+    opacity: 0.2;
 }
-
 .first{
 	position: relative;
 }
-
 .tablehvrd:hover .middle{
 	display: block;
 }
@@ -456,7 +462,19 @@ a.list-group-item.active small {
     top: 42%;
     display: none;
 }
-
+.w-10{
+    width: 2.5%;
+}
+.w-15
+{
+    width: 10%;
+}
+.faq-othr-links a{
+    color:black;
+}
+.faq-othr-links a.active{
+    color: red;
+    }
 /*Muneeb*/
 /* Forms designing */
 .form-signin {
@@ -573,6 +591,9 @@ label{
 .bottom-links a:hover {
     text-decoration: none;
 	color: #e60012;
+}
+footer {
+    border-top: 1px solid #bfbfbf;
 }
 .footer-contact-line{
 	color: #999;
