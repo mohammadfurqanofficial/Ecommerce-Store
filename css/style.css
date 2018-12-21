@@ -6,12 +6,17 @@ body{
 .wrapper {
     margin-top: 225px;
 }
+/* Background Colors */
 .bg-red{
 	background: #e60012;
 }
 .bg-gray{
-	background-color: #f0f0f0;
+	background: #f0f0f0;
 }
+.bg-pink{
+	background: #fff2f3;
+}
+/* Text Colors */
 .text-ccc{
 	color: #ccc;
 }
@@ -24,6 +29,7 @@ body{
 .text-333{
 	color: #333;
 }
+/* Font Sizes */
 .font-s-12{
 	font-size: 12px;
 }
@@ -36,6 +42,7 @@ body{
 .font-s-22{
 	font-size: 22px;
 }
+/* Font Weights */
 .font-w-400{
 	font-weight: 400
 }
@@ -45,6 +52,7 @@ body{
 .font-w-900{
 	font-weight: 900
 }
+/* Buttons */
 .btn-red{
 	background: #e60012;
 	border: 1px solid #e60012;
@@ -80,9 +88,22 @@ body{
     font-size: 18px;
 }
 .btn-darkest-gray:hover, .btn-darkest-gray:focus{
-	background: #333333 !important;
-	border: 1px solid #333333 !important;
+	background: #333 !important;
+	border: 1px solid #333 !important;
 	color: #fff;
+}
+.btn-border-black{
+	background: #fff;
+	border: 1px solid #333;
+	border-radius: 0;
+	color: #333;
+	font-weight: bold;
+    font-size: 18px;
+}
+.btn-border-black:hover, .btn-border-black:focus{
+	background: #fff !important;
+	border: 1px solid #333 !important;
+	color: #333;
 }
 .header-red{
 	font-size: 18px;
@@ -102,15 +123,34 @@ body{
 }
 .top-menu a.active {
 	color: #fff;
+	border-right: 0;
+	background-color: #e60012;
+}
+.footer-buttons a{
+	border: 1px solid #cccccc;
+	font-size: 12px;
+	font-weight: 700;
+    padding: 5px 25px;
+    margin: 0 3px;
+    color: #333333;
+}
+.footer-buttons a.active {
+	color: #fff;
+	border-color: #e60012;
+	background-color: #e60012;
+}
+.footer-links a{
+	border: 1px solid #cccccc;
+	font-size: 12px;
+	font-weight: 700;
+    padding: 5px 25px;
+    margin: 0 3px;
+    color: #333333;
 }
 .main-menu a {
 	color: #333;
 	font-size: 16px;
 	font-weight: 700;
-}
-.top-menu a.active:last-child, .footer-links a:last-child{
-	border-right: 0;
-	background-color: #e60012;
 }
 nav a:hover,.second-nav a:hover{
 	color:#cecece;
@@ -169,14 +209,6 @@ hr{
     border-color: #e6e6e6;
     border-style: solid;
     border-width: 1px;
-}
-.footer-links{
-	font-size: 14px;
-}
-.footer-links a{
-	color: #cecece;
-	border-right: 1px solid #c6c6c6;
-	padding: 0 5px;
 }
 .banner-img img{
 	width: 100%;
