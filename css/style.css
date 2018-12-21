@@ -1,6 +1,7 @@
 body{
 	font-family: "Nanum Gothic","맑은 고딕","Malgun Gothic","돋움",Dotum,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	letter-spacing: -0.5px;
+	background: #f0f0f0;
 }
 .wrapper {
     margin-top: 225px;
@@ -10,6 +11,12 @@ body{
 }
 .bg-gray{
 	background-color: #f0f0f0;
+}
+.text-ccc{
+	color: #ccc;
+}
+.text-999{
+	color: #999;
 }
 .font-s-12{
 	font-size: 12px;
@@ -338,6 +345,159 @@ a.list-group-item.active small {
 }
 
 /*Muneeb*/
-.fa-angle-right{
+/* Forms designing */
+.form-signin {
+    width: 100%;
+    max-width: 550px;
+    padding: 40px 80px;
+    margin: 0 auto;
+}
+input {
+    background: #f7f7f7!important;
+    border-radius: 0 !important;
+    margin-bottom: 10px;
+    color: #cccccc !important;
+    border-color: #cccccc !important;
+    font-size: 14px !important;
+}
+label{
+	color: #333333;
+    font-size: 14px !important;
+}
 
+/* Checkbox design */
+
+.container-checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  /*background-color: #eee;*/
+  border:1px solid #ccc;
+}
+
+/* On mouse-over, add a grey background color */
+.container-checkbox:hover input ~ .checkmark {
+  /*background-color: #ccc;*/
+}
+
+/* When the checkbox is checked, add a blue background */
+.container-checkbox input:checked ~ .checkmark {
+  background-color: #e60012;
+  border:1px solid #e60012;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container-checkbox .checkmark:after {
+  left: 7px;
+  top: 4px;
+  width: 6px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.form-links a{
+	color: #333333;
+    border-right: 1px solid #ccc;
+    padding: 0 10px;
+    font-size: 14px;
+}
+.form-links a:last-child {
+    border-right: 1px solid transparent;
+}
+.form-links a:hover {
+    text-decoration: none;
+	color: #e60012;
+}
+.bottom-links a{
+	color: #666666;
+    border-right: 1px solid #ccc;
+    padding: 0 10px;
+    font-size: 14px;
+}
+.bottom-links a:last-child {
+    border-right: 1px solid transparent;
+}
+.bottom-links a:hover {
+    text-decoration: none;
+	color: #e60012;
+}
+.footer-contact-line{
+	color: #999;
+	font-size: 14px;
+}
+.login-heading{
+	color: #333;
+	font-size: 22px;
+	font-weight: 900;
+}
+.btn-red{
+	background: #e60012;
+	border: 1px solid #e60012;
+	border-radius: 0;
+	color: #fff;
+	font-weight: bold;
+    font-size: 18px;
+}
+.btn-red:hover, .btn-red:focus{
+	background: #e60012;
+	border: 1px solid #e60012;
+	color: #fff;
+}
+.btn-yellow{
+	background: #fae100;
+	border: 1px solid #fae100;
+	border-radius: 0;
+	color: #3a2021;
+	font-weight: bold;
+    font-size: 18px;
+}
+.btn-yellow:hover, .btn-yellow:focus{
+	background: #fae100;
+	border: 1px solid #fae100;
+	color: #3a2021;
+}
+@media (min-width: 1200px){
+	.container{
+	    width: 1020px !important;
+	}
 }
