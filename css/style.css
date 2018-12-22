@@ -37,6 +37,9 @@ body{
 .text-000{
   color: #000;
 }
+.text-600{
+  color: #e60012;
+}
 /* Font Sizes */
 .font-s-12{
 	font-size: 12px;
@@ -118,12 +121,20 @@ body{
   border: 1px solid #d9d9d9;
   color: #999;
   font-size: 14px;
-  padding: 10px 15px;
+  padding: 15px 15px;
 }
 .btn-round:hover, .btn-round:focus{
   background: #fff !important;
   border: 1px solid #e60012 !important;
   color: #e60012;
+}
+.red-sticker{
+  background: #e60012;
+  color: #fff;
+  padding: 5px 10px;
+}
+.blue-sticker{
+  
 }
 /* Common Class Close */
 
@@ -141,7 +152,7 @@ body{
 	border-right: 1px solid #cccccc;
 	font-size: 12px;
 	font-weight: 700;
-    padding: 15px;
+  padding: 15px;
 }
 .top-menu a.active {
 	color: #fff;
