@@ -31,6 +31,12 @@ body{
 .text-333{
 	color: #333;
 }
+.text-fff{
+  color: #fff; 
+}
+.text-000{
+  color: #000; 
+}
 /* Font Sizes */
 .font-s-12{
 	font-size: 12px;
