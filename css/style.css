@@ -396,13 +396,13 @@ table.red-hover-tables.table-hover tbody tr:hover {
     background: #fff;
     border: 1px solid #e60012 !important;
 }
-.inner-pages-tabs a.nav-item.nav-link{
+.inner-page-table-tabs a.nav-item.nav-link{
   background: #ededed;
   color: #999;
   border:1px solid #e5e5e5;
   padding: 8px 72px;
 }
-.inner-pages-tabs a.nav-item.nav-link.active{
+.inner-page-table-tabs a.nav-item.nav-link.active{
   background: #fff;
   color: #333;
 }
