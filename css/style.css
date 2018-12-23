@@ -392,11 +392,20 @@ table.red-hover-tables.table-hover tr {
     border-top: 1px solid #dee2e6;
 }
 
-table.red-hover-tables.table-hover tr:hover {
+table.red-hover-tables.table-hover tbody tr:hover {
     background: #fff;
     border: 1px solid #e60012 !important;
 }
-
+.inner-pages-tabs a.nav-item.nav-link{
+  background: #ededed;
+  color: #999;
+  border:1px solid #e5e5e5;
+  padding: 8px 72px;
+}
+.inner-pages-tabs a.nav-item.nav-link.active{
+  background: #fff;
+  color: #333;
+}
 table.red-hover-tables.table-hover td, table.red-hover-tables.table-hover th {
     border-top: 0;
 }
