@@ -270,7 +270,8 @@ hr{
     padding-left: 0
 }
 .pro-list-tabs .nav .nav-item.active{
-	color: #e60012;
+  color: #e60012;
+  border-bottom: 3px solid;
 }
 span.pro-tags {
     background-color: #e60012;
@@ -293,7 +294,9 @@ span.pro-tags {
 .pro-list-tabs .nav .nav-item {
     color: #999999;
     font-size: 12px;
-    padding: 0px 17px;
+    padding: 15px 17px;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
 }
 .home-4th-container.py-4 .card {
     border: 0;
@@ -331,9 +334,9 @@ a.nav-link.py-1.border-0:hover {
 .bars-inner {
     display: inline-block;
 }
-.pro-list-tabs .nav .nav-item:first-child {
+/*.pro-list-tabs .nav .nav-item:first-child {
     border-right: 1px solid #ccc;
-}
+}*/
 
 
 /*Muneeb*/
