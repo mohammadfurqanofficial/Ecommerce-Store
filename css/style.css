@@ -760,8 +760,17 @@ footer {
   border-right: 1px solid;
 }
 .form-border-padding-cl3{
-  padding: 3px 15px;
+      padding: 16px ;
+}
+.form-border-padding-cll8{
+  padding: 25px 16px;
 }
 .form-border-padding-cl8{
-  padding: 25px 15px;
+  padding: 12px 16px;
+}
+.details-desc-row-height{
+  height: 73px;
+}
+.w-13{
+  width: 13%;
 }
